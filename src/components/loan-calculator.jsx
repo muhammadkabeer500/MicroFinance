@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 
-const LoanCalculator = ({ selectedCategory }) => {
+const LoanCalculator = ({ selectedCategory :any }) => {
   // Define loan categories and their properties
   const loanDetails = {
     "Wedding Loans": {
